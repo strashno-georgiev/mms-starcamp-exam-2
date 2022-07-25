@@ -1,0 +1,4 @@
+Compilation steps:
+    make program - за програма с автоматично линкване
+    make sprogram - за програма със статична библиотека
+    make dprogram - за програма с динамична библиотека (може да има нужда от 'export $LD_LIBRARY_PATH=`pwd`:$LD_LIBRARY_PATH')
